@@ -1,0 +1,37 @@
+// хедер
+.header {
+    background-color: $yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &_item {
+        @extend %items;
+        text-align: center;
+        
+    }
+
+    &_top {
+        display: flex;
+        justify-content:space-between ;
+        align-items: center;
+    }
+}
+
+.social {
+    
+
+    &_items {
+        list-style-type: none;
+        display: flex;
+    }
+    &_item {
+        margin-left:15px;
+        font-size: 24px;
+
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}

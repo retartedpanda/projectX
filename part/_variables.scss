@@ -1,0 +1,21 @@
+$yellow:#FCDB00;
+$grey:#8B8A8B;
+$black:#010101;
+
+$font:'PT Sans', sans-serif;
+
+@mixin flex($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+%flex {
+    display: flex;
+}
+
+%items {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+    
+}
